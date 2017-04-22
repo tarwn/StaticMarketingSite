@@ -120,3 +120,17 @@ are then overridden on a page-by-page basis. By default pages will be listed
 as updating "monthly" and have a last modified date from when the site is 
 generated. Some pages, like the landing page and posts archive, have higher
 frequencies because they're expected to change more frequently than others.
+
+Robots.txt
+-------------
+
+Currently the Robots.txt file is set to wave off search engines, you will need
+to change this in your live site.
+
+Deploying to Azure Websites
+----------------------------
+
+All that is required to deploy is setting up the website and connecting
+to the respository for automatic deployment. I have included a `.deployment`
+file for Azure that directs it to only serve up files from the `build`
+directory.
