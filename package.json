@@ -1,0 +1,23 @@
+{
+    
+    "name": "static-marketing-site",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": {
+        "name": "Eli Weinstock-Herman (@tarwn)",
+        "url": "http://tiernok.com"
+    },
+    "description": "The skeleton of a basic marketing site generated using metalsmith and ready for deployment to an Azure Website",
+    "dependencies": {
+        "metalsmith": "2.3.x",
+        "handlebars": "4.0.x",
+        "metalsmith-layouts": "1.8.x",
+        "metalsmith-markdown": "0.2.x",
+        "metalsmith-permalinks": "0.5.x",
+        "metalsmith-collections": "0.9.x",
+        "metalsmith-hbt-md": "1.0.x",
+        "metalsmith-mapsite": "1.0.x",
+        "metalsmith-feed": "0.2.x",
+        "metalsmith-drafts": "0.0.x"
+    }
+}

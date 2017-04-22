@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.url }}" href="/rss.xml" />
+</head>
+<body>
+  <header>
+    <img src="/images/WindSockLogo80.png" />
+    <div style="float: right">
+      <a href="/">Home</a>
+      <a href="/features">Features</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/posts">Blog</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </header>
+  <h1>{{ title }}</h1>
+  <p>{{ description }}</p>
+
+  {{{ contents }}}
+
+  <footer>
+    <strong>Other Links</strong>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    <strong>
+  </footer>
+
+</body>
+</html>
