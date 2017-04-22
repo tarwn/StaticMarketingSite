@@ -40,6 +40,9 @@ The content for the site will be generated in the /build folder.
 
 ```node static_server.js```
 
+You can now visit http://localhost:8888 to look at the site. Theer is no caching,
+so you can continue to re-generate the site and refresh to see your changes.
+
 This is a mildly modified script from https://gist.github.com/ryanflorence/701407
 
 Details
