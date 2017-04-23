@@ -1,0 +1,35 @@
+---
+layout: layout.html
+title: buy our stuff!
+
+changefreq: weekly
+priority: 1.0
+---
+
+<section style="padding: 1em 2em; background-color: #eeeeff">
+  <h1>Amazing product!</h1>
+  You should really buy it!<br/>
+  <br>
+  <a href="#" style="background-color: #FF8C00; padding: 15px; color: white; border-radius: 3px">Buy it now!</a><br/>
+</section>
+
+<section style="margin: 1em 0;">
+We have features!
+<ul>
+  <li>Amazing things!</li>
+  <li>Super stuff!</li>
+  <li>Stupendously awesome!!!</li>
+</ul>
+</section>
+
+<section style="margin: 1em 0;">
+Check out our latest blog posts:<br/>
+
+{{#each collections.latestPosts}}
+  <div style="width: 400px; display: inline-block;">
+    <h3><a href="/{{ path }}">{{ title }}</a></h3>
+    <div>{{ excerpt }}</div>
+    <a href="/{{ path }}">Read more</a>
+  </div>
+{{/each}}
+</section>
